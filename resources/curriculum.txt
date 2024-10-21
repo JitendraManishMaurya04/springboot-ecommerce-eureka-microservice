@@ -1,0 +1,28 @@
+Microservices
+
+Section 1 - Application overview
+	- Application architecure is available at location diagrams/micro-services.drawio
+	
+Section 2 - Bootstrap the application
+	- Create GitHub mono-repository
+	- Create Customer ms
+	- Create Order ms
+	- Create Payment ms
+	- Create Notification ms
+	- Create docker-compose and run the containers
+
+Section 3 - Config server
+	- Why we need a config server?
+	- Create config-server project
+	- Develop the config server (maybe splitted)
+	- Add Customer-service config
+
+
+Section 4 - Implement Customer service
+	- Read configs from config server
+	- Create Customer entity
+	- Create Customer repository
+	- Create Customer registration dto
+	- Create customer response dto
+	- Create Customer service
+	- Create Customer controller
